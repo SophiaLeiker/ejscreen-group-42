@@ -30,3 +30,12 @@ ggplot(data=ces, aes(x=white_percent, y=ces_3_0_score))+
 ```
 
 **Figure 1**: A comparison between percent white population and the CalEnviroScreen 3.0 Score. Darker blue values indicate a higher count of observations, lighter blue values indicate a lower count of observations. 
+
+
+As seen in Figure 1, these data show that negative environmental health effects are, on average, less likely to affect a community as more of its population is white. This finding is crucial in moving forward with more equitable environmental initiatives that address both socioeconomic and public health issues at the same time in an effort to combat environmental racism. 
+
+
+
+**Citation:** California Environmental Justice Alliance. 2018. CalEnviroScreen 3.0: A Tool for Advancing Environmental Justice. https://caleja.org/wp-content/uploads/2015/09/CES3.0-5.pdf (Accessed 11/11/2021)
+For more background and CalEnviroScreen 3.0 maps, go to: https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-30
+ 
