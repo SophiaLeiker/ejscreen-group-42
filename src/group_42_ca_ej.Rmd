@@ -1,0 +1,21 @@
+---
+title: "Group 42 CA pollution burden"
+author: "Sophia Leiker, Evie Vermeer"
+date: "11/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Attaching packages
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  janitor::clean_names()
+```
+
