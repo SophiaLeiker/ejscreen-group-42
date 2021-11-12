@@ -5,8 +5,8 @@ date: "11/11/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=TRUE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 #Attaching packages
 library(tidyverse)
@@ -29,3 +29,4 @@ ggplot(data=ces, aes(x=white_percent, y=ces_3_0_score))+
 
 ```
 
+**Figure 1**: A comparison between percent white population and the CalEnviroScreen 3.0 Score. Darker blue values indicate a higher count of observations, lighter blue values indicate a lower count of observations. 
